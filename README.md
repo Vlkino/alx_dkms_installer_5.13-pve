@@ -9,4 +9,4 @@ The setup uses sudo and thus you are asked for your password once.
 It will then attempt to download your kernels source, copy and patch the alx related files and place a "alx-<kernel-version>" in your /usr/src directory, enable and compile the module and finally rebuild your initrd.  
 Currently the the very first compilation somehow fails, thats why it's run twice.
   
-Big thanks for @AMV007 for created this automating DKMS module, here is edited his module for 5.13 kernel specially for PVE
+Big thanks to @AMV007 for created this automating DKMS module, here is edited his module for 5.13 kernel specially for PVE
